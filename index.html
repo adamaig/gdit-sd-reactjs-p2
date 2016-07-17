@@ -324,7 +324,7 @@ document
     </div>
 </div>
 <div class="sl-block" data-block-type="text" style="width: 857px; left: 23px; top: 140px; height: auto;" data-block-id="eae56717742476ee607c712026bc1d0a">
-    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec metus justo. Aliquam erat volutpat." style="z-index: 12; text-align: left;">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec metus justo. Aliquam erat volutpat." style="z-index: 12; text-align: left;" dir="ui">
 <ol>
 	<li>
 	<p>Go to http://jsbin.com</p>
@@ -333,7 +333,7 @@ document
 	<p>Sign In/Up</p>
 	</li>
 	<li>
-	<p>Go to <a href="http://jsbin.com/fugilu/edit?html,css,js,output" target="_blank">http://jsbin.com/fugilu/edit?html,css,js,output</a></p>
+	<p>Go to <a href="http://jsbin.com/fugilu/edit?html,css,js,output" target="_blank">http://jsbin.com/fugilu/edit?html,css,js,output</a> or </p>
 
 	<ol>
 		<li>
@@ -342,6 +342,12 @@ document
 	</ol>
 	</li>
 </ol>
+
+<p> </p>
+
+<p><span style="font-size:0.7em">The source from the JSBin is also available here: </span></p>
+
+<p><span style="font-size:0.7em"><a href="https://gist.github.com/anonymous/ec3aa1bf7b156033eab7237e3cb53718" target="_blank">https://gist.github.com/anonymous/ec3aa1bf7b156033eab7237e3cb53718</a></span></p>
 </div>
 </div>
 </section><section data-id="d90a6060f05749e614ff5e5bd5fc60c9"><div class="sl-block" data-block-type="text" style="width: 857px; left: 23px; top: 87px; height: auto;" data-block-id="d96bf6ddf80f146a30c66078ec79f2a8"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 11;">
@@ -885,9 +891,7 @@ ReactDOM.render(
   &lt;UserProfile {...profile} /&gt;,
   document.getElementById('root')
 );</code></pre></div></div>
-<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 907px; left: 22px; top: 651px;" data-block-id="9ffe9a88b490db7d043f4d21f954e3ee"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
-<p style="text-align:left">Use <a href="http://jsbin.com/fugilu/edit?html,css,js,output" target="_blank">http://jsbin.com/fugilu/edit?html,css,js,output</a> </p>
-</div></div></section></section><section data-id="5bc69562211a84b7e9b5c99ff1f0228b"><div class="sl-block" data-block-type="text" style="width: 342px; left: 320px; top: 280px; height: auto;" data-block-id="60886ea8cdefc852f82c87f57b4da2e6"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 11;">
+</section></section><section data-id="5bc69562211a84b7e9b5c99ff1f0228b"><div class="sl-block" data-block-type="text" style="width: 342px; left: 320px; top: 280px; height: auto;" data-block-id="60886ea8cdefc852f82c87f57b4da2e6"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 11;">
 <h2>The Bridge</h2>
 </div></div>
 <div class="sl-block" data-block-type="text" data-block-id="787c17266090daf4974e57c9969975ed" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 173px; top: 365px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
@@ -1273,24 +1277,31 @@ ReactDOM.render(
 );</code></pre></div></div>
 <div class="sl-block" data-block-type="text" data-block-id="46f0f1d1105d380a214ebe3901386456" style="height: auto; min-width: 30px; min-height: 30px; width: 502px; left: 451px; top: 651px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
 <p><span style="font-size:0.7em"><a href="https://facebook.github.io/react/docs/forms.html" target="_blank">https://facebook.github.io/react/docs/forms.html</a></span></p>
-</div></div></section><section data-id="80a0473e48fed00174de6455bba54331"><div class="sl-block" data-block-type="text" style="width: 919px; left: 23px; top: 16px; height: auto;" data-block-id="81e28409d4a168c2c5d0d959237f6dd0"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 11;">
-<h2>Forms! (But mostly inputs)</h2>
-</div></div>
-<div class="sl-block" data-block-type="text" style="width: 448px; left: 22px; top: 90px; height: auto;" data-block-id="b45e42f17309cdceecbf69ede3041041"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec metus justo. Aliquam erat volutpat." style="z-index: 12; text-align: left;">
-<p>Input controls in React provide a few props that are designed to keep the UI state information synchronized with the underlying DOM.</p>
-
-<p> </p>
-
-<ul>
-	<li>
-<em>value</em>: The current value of the input</li>
-	<li>
-<em>defaultValue</em>: used if value is null or undefined</li>
-	<li>
-<em>onChange</em>: a general event handler, use instead of onInput</li>
-</ul>
-</div></div>
-<div class="sl-block" data-block-type="code" style="width: 456px; height: 503px; left: 486px; top: 127px;" data-block-id="0a5770ab4b3fd95aa28c1fdbfe400e4e"><div class="sl-block-content" style="z-index: 13;"><pre class="none"><code>// ReactJS Counter App - Broken
+</div></div></section><section data-id="80a0473e48fed00174de6455bba54331"><div class="sl-block" data-block-type="text" style="width: 919px; left: 23px; top: 16px; height: auto;" data-block-id="81e28409d4a168c2c5d0d959237f6dd0">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 11;">
+        <h2>Forms! (But mostly inputs)</h2>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 448px; left: 22px; top: 90px; height: auto;" data-block-id="b45e42f17309cdceecbf69ede3041041">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec metus justo. Aliquam erat volutpat." style="z-index: 12; text-align: left;">
+        <p>Input controls in React provide a few props that are designed to keep the UI state information synchronized with the underlying DOM.</p>
+        <ul>
+            <li>
+                <em>value</em>: The current value of the input
+            </li>
+            <li>
+                <em>defaultValue</em>: used if value is null or undefined
+            </li>
+            <li>
+                <em>onChange</em>: a general event handler, use instead of onInput
+            </li>
+        </ul>
+        <p>Let's play with these methods and different input types!</p>
+    </div>
+</div>
+<div class="sl-block" data-block-type="code" style="width: 456px; height: 503px; left: 486px; top: 127px;" data-block-id="0a5770ab4b3fd95aa28c1fdbfe400e4e">
+    <div class="sl-block-content" style="z-index: 13;">
+        <pre class="none"><code>// ReactJS Counter App - Broken
 var MyComponent = React.createClass({
 
   getInitialState: function() {
@@ -1315,10 +1326,20 @@ var MyComponent = React.createClass({
 ReactDOM.render(
   &lt;MyComponent /&gt;,
   document.getElementById('app')
-);</code></pre></div></div>
-<div class="sl-block" data-block-type="text" style="height: auto; width: 914px; left: 28px; top: 638px;" data-block-id="ae9dc1cc51eef250576644818bea4ce1"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; line-height: 0.936;" data-has-line-height="">
-<p><span style="font-size:0.7em"><a href="https://facebook.github.io/react/docs/forms.html" target="_blank">https://facebook.github.io/react/docs/forms.html</a> and <a href="https://facebook.github.io/react/docs/events.html#form-events" target="_blank">https://facebook.github.io/react/docs/events.html#form-events</a></span></p>
-</div></div></section></section><section class="stack" data-id="7f93b67f5cae417e702e29048c222810"><section data-id="16a091a6e5cf4cc20b0d4fec40fb66b7"><div class="sl-block" data-block-type="text" style="width: 919px; left: 23px; top: 16px; height: auto;" data-block-id="0c8613ea8fb7548d697e5fac95ddf343"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 11;">
+);</code></pre>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 914px; left: 28px; top: 638px;" data-block-id="ae9dc1cc51eef250576644818bea4ce1">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; line-height: 0.936;" data-has-line-height="">
+        <p>
+            <span style="font-size:0.7em">
+                <a href="https://facebook.github.io/react/docs/forms.html" target="_blank">https://facebook.github.io/react/docs/forms.html</a> and 
+                
+                <a href="https://facebook.github.io/react/docs/events.html#form-events" target="_blank">https://facebook.github.io/react/docs/events.html#form-events</a>
+            </span>
+        </p>
+    </div>
+</div></section></section><section class="stack" data-id="7f93b67f5cae417e702e29048c222810"><section data-id="16a091a6e5cf4cc20b0d4fec40fb66b7"><div class="sl-block" data-block-type="text" style="width: 919px; left: 23px; top: 16px; height: auto;" data-block-id="0c8613ea8fb7548d697e5fac95ddf343"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 11;">
 <h2>The VirtualDOM</h2>
 </div></div>
 <div class="sl-block" data-block-type="text" style="width: 448px; left: 23px; top: 127px; height: auto;" data-block-id="80559383d5aa191e479da7a897a9af8a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec metus justo. Aliquam erat volutpat." style="z-index: 12; text-align: left;">
@@ -1333,7 +1354,7 @@ ReactDOM.render(
 <p>As much as possible the DOM is untouched.</p>
 </div></div>
 <div class="sl-block" data-block-type="text" data-block-id="dccf7f0df154f33a76b9c749af77275d" style="height: auto; min-width: 30px; min-height: 30px; width: 935px; left: 7px; top: 655px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
-<p>http://blog.reverberate.org/2014/02/react-demystified.html</p>
+<p><a href="http://blog.reverberate.org/2014/02/react-demystified.html" target="_blank">http://blog.reverberate.org/2014/02/react-demystified.html</a></p>
 </div></div>
 <div class="sl-block" data-block-type="image" data-block-id="159718d99fdfc5693dc6a0705a544c97" style="min-width: 30px; min-height: 30px; width: 390.524px; height: 165px; left: 525px; top: 127px;"><div class="sl-block-content" style="z-index: 15;"><img data-natural-width="542" data-natural-height="229" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/517462/images/2829157/ReactVDOM.png"></div></div>
 <div class="sl-block" data-block-type="code" data-block-id="16db033cc9936099ff87d5dcba735831" style="min-width: 30px; min-height: 30px; width: 448px; height: 230px; left: 494px; top: 340px;"><div class="sl-block-content" style="z-index: 16;"><pre class="cs"><code>{ 
@@ -1437,7 +1458,7 @@ render: function render() {
 
 		
 <script>
-	var SLConfig = {"current_user":{"id":517462,"username":"adamaig","name":"Adam Ingram-Goble","description":"","thumbnail_url":"//graph.facebook.com/10107141589549159/picture","pro":false,"team_id":null,"settings":{"id":360236,"present_controls":false,"present_upsizing":true,"present_notes":true,"editor_grid":true,"editor_snap":true,"developer_mode":true},"email":"adamaig@gmail.com","notify_on_receipt":true,"billing_address":null,"editor_tutorial_completed":true,"manually_upgraded":false,"deck_user_editor_limit":1},"deck":{"id":708473,"slug":"deck","title":"deck","description":"","visibility":"all","published_at":"2016-05-23T04:53:12.718Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/6122bb964526c6ad7f000967199e25cd/thumb.jpg","view_count":33,"user":{"id":517462,"username":"adamaig","name":"Adam Ingram-Goble","description":"","thumbnail_url":"//graph.facebook.com/10107141589549159/picture","pro":false,"team_id":null,"settings":{"id":360236,"present_controls":false,"present_upsizing":true,"present_notes":true}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"opensans","theme_color":"beige-brown","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":true,"rolling_links":false,"center":false,"should_loop":false,"share_notes":null,"slide_number":null,"rtl":false,"version":2,"collaborative":true,"deck_user_editor_limit":1,"data_updated_at":1468771328846,"access_token":"Ya8ZiqH1WTUbbvdUL75YjCtY5xzr","notes":{"c86ec68822a9491a4301b54dad483df5":"From MDN ...\nObjects in JavaScript, just as in many other programming languages, can be compared to objects in real life. The concept of objects in JavaScript can be understood with real life, tangible objects.\n\nIn JavaScript, an object is a standalone entity, with properties and type. Compare it with a cup, for example. A cup is an object, with properties. A cup has a color, a design, weight, a material it is made of, etc.","64414b162f267ffaf0124323b123b503":"In this section we'll cover a little about a programming concept known as objects. Because the implementation varies a bit across different languages, we'll be covering JS specific syntax. We will also only be touching on the parts that are essential for understanding what we're doing with React."}}};
+	var SLConfig = {"current_user":{"id":517462,"username":"adamaig","name":"Adam Ingram-Goble","description":"","thumbnail_url":"//graph.facebook.com/10107141589549159/picture","pro":false,"team_id":null,"settings":{"id":360236,"present_controls":false,"present_upsizing":true,"present_notes":true,"editor_grid":true,"editor_snap":true,"developer_mode":true},"email":"adamaig@gmail.com","notify_on_receipt":true,"billing_address":null,"editor_tutorial_completed":true,"manually_upgraded":false,"deck_user_editor_limit":1},"deck":{"id":708473,"slug":"deck","title":"deck","description":"","visibility":"all","published_at":"2016-05-23T04:53:12.718Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/6122bb964526c6ad7f000967199e25cd/thumb.jpg","view_count":33,"user":{"id":517462,"username":"adamaig","name":"Adam Ingram-Goble","description":"","thumbnail_url":"//graph.facebook.com/10107141589549159/picture","pro":false,"team_id":null,"settings":{"id":360236,"present_controls":false,"present_upsizing":true,"present_notes":true}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"opensans","theme_color":"beige-brown","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":true,"rolling_links":false,"center":false,"should_loop":false,"share_notes":null,"slide_number":null,"rtl":false,"version":2,"collaborative":true,"deck_user_editor_limit":1,"data_updated_at":1468774193434,"access_token":"Ya8ZiqH1WTUbbvdUL75YjCtY5xzr","notes":{"c86ec68822a9491a4301b54dad483df5":"From MDN ...\nObjects in JavaScript, just as in many other programming languages, can be compared to objects in real life. The concept of objects in JavaScript can be understood with real life, tangible objects.\n\nIn JavaScript, an object is a standalone entity, with properties and type. Compare it with a cup, for example. A cup is an object, with properties. A cup has a color, a design, weight, a material it is made of, etc.","64414b162f267ffaf0124323b123b503":"In this section we'll cover a little about a programming concept known as objects. Because the implementation varies a bit across different languages, we'll be covering JS specific syntax. We will also only be touching on the parts that are essential for understanding what we're doing with React."}}};
 </script>
 
 		<script>
